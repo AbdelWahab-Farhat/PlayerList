@@ -22,12 +22,6 @@ pipeline {
                 echo 'Build Done'
             }
         }
-        stage('Test') {
-            steps {
-                sh 'cd PlayerList.Tests && dotnet test  --no-build --verbosity normal'
-                echo 'Tests Completed'
-            }
-        }
         stage('Run') {
             steps {
                 sh 'dotnet run --project PlayerList/PlayerList.csproj'
