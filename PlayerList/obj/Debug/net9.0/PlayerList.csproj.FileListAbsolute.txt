@@ -1,0 +1,14 @@
+/Users/abdelwahabfarhat/Desktop/day3/PlayerList/PlayerList/obj/Debug/net9.0/PlayerList.GeneratedMSBuildEditorConfig.editorconfig
+/Users/abdelwahabfarhat/Desktop/day3/PlayerList/PlayerList/obj/Debug/net9.0/PlayerList.AssemblyInfoInputs.cache
+/Users/abdelwahabfarhat/Desktop/day3/PlayerList/PlayerList/obj/Debug/net9.0/PlayerList.AssemblyInfo.cs
+/Users/abdelwahabfarhat/Desktop/day3/PlayerList/PlayerList/obj/Debug/net9.0/PlayerList.csproj.CoreCompileInputs.cache
+/Users/abdelwahabfarhat/Desktop/day3/PlayerList/PlayerList/bin/Debug/net9.0/PlayerList
+/Users/abdelwahabfarhat/Desktop/day3/PlayerList/PlayerList/bin/Debug/net9.0/PlayerList.deps.json
+/Users/abdelwahabfarhat/Desktop/day3/PlayerList/PlayerList/bin/Debug/net9.0/PlayerList.runtimeconfig.json
+/Users/abdelwahabfarhat/Desktop/day3/PlayerList/PlayerList/bin/Debug/net9.0/PlayerList.dll
+/Users/abdelwahabfarhat/Desktop/day3/PlayerList/PlayerList/bin/Debug/net9.0/PlayerList.pdb
+/Users/abdelwahabfarhat/Desktop/day3/PlayerList/PlayerList/obj/Debug/net9.0/PlayerList.dll
+/Users/abdelwahabfarhat/Desktop/day3/PlayerList/PlayerList/obj/Debug/net9.0/refint/PlayerList.dll
+/Users/abdelwahabfarhat/Desktop/day3/PlayerList/PlayerList/obj/Debug/net9.0/PlayerList.pdb
+/Users/abdelwahabfarhat/Desktop/day3/PlayerList/PlayerList/obj/Debug/net9.0/PlayerList.genruntimeconfig.cache
+/Users/abdelwahabfarhat/Desktop/day3/PlayerList/PlayerList/obj/Debug/net9.0/ref/PlayerList.dll
