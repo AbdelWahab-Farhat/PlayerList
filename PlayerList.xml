@@ -1,0 +1,38 @@
+<project>
+    <actions/>
+    <description>My Pipeline Job</description>
+    <keepDependencies>false</keepDependencies>
+    <properties>
+        <com.cloudbees.jenkins.plugins.bitbucket.BranchSource>
+            <id>my-bitbucket-source</id>
+            <scanCredentialsId>my-credentials-id</scanCredentialsId>
+            <repoOwner>my-repo-owner</repoOwner>
+            <repository>my-repo-name</repository>
+            <traits>
+                <jenkins.plugins.git.traits.BranchDiscoveryTrait/>
+            </traits>
+        </com.cloudbees.jenkins.plugins.bitbucket.BranchSource>
+    </properties>
+    <scm class="hudson.plugins.git.GitSCM" plugin="git@4.10.0">
+        <configVersion>2</configVersion>
+        <userRemoteConfigs>
+            <hudson.plugins.git.UserRemoteConfig>
+                <url>https://github.com/AbdelWahab-Farhat/PlayerList</url>
+                <credentialsId>my-credentials-id</credentialsId>
+            </hudson.plugins.git.UserRemoteConfig>
+        </userRemoteConfigs>
+        <branches>
+            <hudson.plugins.git.BranchSpec>
+                <name>*/master</name>
+            </hudson.plugins.git.BranchSpec>
+        </branches>
+        <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+        <submoduleCfg class="list"/>
+        <extensions/>
+    </scm>
+    <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition">
+        <script>pipeline { agent any; stages { stage('Build') { steps { echo 'Building...' } } stage('Test') { steps { echo 'Testing...' } } stage('Deploy') { steps { echo 'Deploying...' } } } }</script>
+        <sandbox>true</sandbox>
+    </definition>
+    <triggers/>
+</project>
